@@ -1,0 +1,57 @@
+.btn-success:active{
+	background-color: grey!important;
+    border-color: black!important;
+
+}
+
+.btn-success{
+	background-color: white!important;
+    border-color: black	!important;
+}
+
+.btn-default:hover{
+	background-color: #D0D7E0!important;
+}
+body{
+	font-family: 'Scada', sans-serif;
+	font-size: 12px;
+	}
+
+#btn-mi-unidad{
+	background-color: white!important;
+	border-color: white!important;
+}
+
+#btn-mi-unidad:hover{
+	background-color: #D6D6D6!important;
+	border-color: #D6D6D6!important;
+}
+
+.centrar
+    {
+      position: absolute;
+      /*nos posicionamos en el centro del navegador*/
+      top:50%;
+      left:50%;
+      /*determinamos una anchura*/
+      width:800px;
+      /*indicamos que el margen izquierdo, es la mitad de la anchura*/
+      margin-left:-400px;
+      /*determinamos una altura*/
+      height:300px;
+      /*indicamos que el margen superior, es la mitad de la altura*/
+      margin-top:-150px;
+      border:2px;
+      padding:5px;
+      border-color: grey;
+    }
+    .inputs{
+    	background-color: white;
+      
+    }
+    .inputs:active{
+      border-color: black;
+      border-top: none; 
+      border-right: none; 
+      border-left: none;
+    }
